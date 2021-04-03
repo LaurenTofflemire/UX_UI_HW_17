@@ -1,0 +1,155 @@
+
+
+.body {
+    background-color: #F9F9F9;
+}
+
+.navigation {
+    display: flex;
+    background-color: #F9F9F9;
+    height: 85px;
+    align-items: center;
+    top: 0;
+    left: 0;
+    position: fixed;
+    width: 100%;
+}
+
+.logo {
+    width: 50%;
+    background-repeat: no-repeat;
+    background-position: left;
+    align-items:flex-start;
+    margin-left: 50px;
+    opacity: 100%;
+}
+
+.rightNav {
+    display: flex;
+    width: 50%;
+    font-family: 'Fira Sans', sans-serif;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.rightNav a {
+    text-decoration: none;
+    color: #1C1C1C;
+    font-size: 16px;
+    margin-right: 40px;
+}
+
+.rightNav a:hover {
+    color: #5446F4;
+}
+
+.contactme {
+    background-color: #5446F4;
+    width: 197px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    margin-right: 50px;
+    opacity: 100%;
+}
+
+.contactme:hover {
+    background-color: #493DD0;
+}
+
+.contactme a {
+    color: #F9F9F9;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+h1 {
+    font-family: 'Average', serif;
+    font-size: 54px;
+    text-align: center;
+    font-weight: normal;
+    font-style: normal;
+    margin-top: 100px;
+
+}
+
+.flexContainer {
+    display: flex;
+    align-content: center;
+    justify-content: ;
+}
+
+.skillBaby {
+    width: 33%;
+    padding: 30px;
+    text-align: center;
+    background-color: #EDECEC;
+}
+
+h3 {
+    font-family: 'Average', serif;
+    font-size: 24px;
+    font-weight: normal;
+
+}
+
+.workGrid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    justify-items: center;
+}
+
+h4 {
+    font-size: 18px;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    margin: 0px;
+}
+
+p {
+    font-size: 14px;
+    font-family: 'Fira Sans', sans-serif;
+    font-style: normal; 
+    width: 450px;
+}
+
+.rabbits {
+    background-color: #EDECEC;
+    border-radius: 20px;
+    text-align: left;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+    align-items: center;
+}
+
+button {
+    padding: 15px 20px 16px;
+    border-radius: 5px;
+    border: 1px solid #5446F4;
+    font-size: 16px;
+    font-family: 'Fira Sans', sans-serif;
+    color: #5446F4;
+}
+
+.taskmonster {
+    background-color: #EDECEC;
+    border-radius: 20px;
+    text-align: left;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+    align-items: center;
+}
+
+img {
+    padding: 20px;
+    text-align: center;
+}
+
+
