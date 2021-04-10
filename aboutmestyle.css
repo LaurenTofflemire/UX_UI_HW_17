@@ -72,6 +72,8 @@ h1 {
     text-align: center;
     font-weight: normal;
     font-style: normal;
+    padding-top: 45px;
+    color: #1C1C1C;
 
 }
 
@@ -93,6 +95,7 @@ h1 {
     padding: 30px;
     text-align: center;
     background-color: #F0EFF2;
+    height: 365px;
 }
 
 .skillBaby p {
@@ -101,12 +104,18 @@ h1 {
     font-style: normal; 
     justify-content: center;
     align-content: center;
+    color: #1C1C1C;
+}
+
+.skillBaby img {
+    padding-top: 50px;
 }
 
 h3 {
     font-family: 'Average', serif;
-    font-size: 24px;
+    font-size: 28px;
     font-weight: normal;
+    color: #1C1C1C;
 
 }
 
@@ -122,7 +131,8 @@ h4 {
     font-family: 'Fira Sans', sans-serif;
     font-weight: bold;
     font-style: normal;
-    margin: 0px;
+    margin-top: 33px;
+    color: #1C1C1C;
 }
 
 button {
@@ -136,7 +146,7 @@ button {
 
 
 img {
-    padding: 20px;
+    padding-top: 5px;
     text-align: center;
 }
 
@@ -154,6 +164,7 @@ img {
     line-height: 35px;
     margin-right: 90px;
     width: 680px;
+    color: #1C1C1C;
 }
 
 h2 {
@@ -162,6 +173,7 @@ h2 {
     text-align: left;
     font-weight: normal;
     font-style: normal;
+    color: #1C1C1C;
 
 }
 
@@ -170,27 +182,94 @@ h2 {
     align-content: center;
 }
 
+.workExperience h1 {
+    padding-bottom: 25px;
+}
+
+.jobDescrip {
+    margin-bottom: 60px;
+}
+
+.jobDescrip p {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 14px;
+    color: #1C1C1C;
+    margin-right: 50px;
+}
+
 .workTogether {
     background-color: #F0EFF2;
     height: 365px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .emailMe {
     background-color: #5446F4;
     width: 197px;
     height: 50px;
-    justify-content: center;
-    align-items: center;
     border-radius: 5px;
-    margin-right: 50px;
+    align-items: center;
+    margin-top: 33px;
+}
+
+.emailMe a{
     color: #F9F9F9;
-    justify-content: center;
-    text-decoration: none;
     font-size: 16px;
+    text-decoration: none;
+    font-family: 'Fira Sans', sans-serif; 
+}
+
+.workContact {
+    text-align: center;
+    margin-bottom: 101px;
+}
+
+.workContact p {
+    font-size: 18px;
     font-family: 'Fira Sans', sans-serif;
+    font-style: normal; 
 }
 
 .workContact h1 {
     padding-top: 60px;
+    text-align: center;
+}
+
+hr {
+    background-color: #5446F4;
+    height: 1px;
+    border: none;
+    margin-left: 0; 
+    max-width: 281px;
+}
+
+.footer {
+    display: grid;
+    grid-template-rows: 50% 50%;
+    grid-template-columns: 100%;
+    grid-template-areas:
+    "icons"
+    "footertext";
+    background-color: #1c1c1c;
+    align-items: center;
+    height: 147px;
+    width: 100%;
+    position: relative;
+}
+
+.icons {
+    text-align: center;
+    margin-top: 50px;
+    margin-right: 4px;
+}
+
+.footertext {
+    font-family: 'Fira Sans', sans-serif;
+    color: #F9F9F9;
+    font-family: 14px;
+    font-style: normal;
+    font-weight: normal;
     text-align: center;
 }
