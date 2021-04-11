@@ -44,6 +44,7 @@
 }
 
 .contactme {
+    display: block;
     background-color: #5446F4;
     width: 197px;
     height: 50px;
@@ -91,6 +92,7 @@ h1 {
     grid-template-areas: 'rabbit monster'
     'energy nike';
 }
+
 .workGrid {
     width: 510px;
 }
@@ -124,6 +126,7 @@ button {
     font-size: 16px;
     font-family: 'Fira Sans', sans-serif;
     color: #5446F4;
+    text-align: center;
 }
 
 
@@ -160,7 +163,7 @@ h2 {
 
 .projectInfo {
     background-color: #C6C3CC;
-    margin-bottom: 60px;
+    margin-bottom: 10px;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
 }
@@ -248,16 +251,25 @@ hr {
     text-align: center;
 }
 
-@media only screen and (max-width:600) {
+@media only screen and (max-width: 700px) {
     .projectGrid {
         display: grid;
-        margin-bottom: 30px;
         grid-template-columns: 1fr;
-        grid-template-rows: 300px;
-        grid-template-areas: 
-        "rabbit"
-        "monster"
-        "energy"
-        "nike";
+        grid-template-rows: 25% 25% 25% 25%;
+        grid-template-areas: 'rabbit'
+        'monster'
+        'energy'
+        'nike';
     }
-}
+
+    .contactme {
+        visibility: hidden;
+    }
+
+    .rightNav a {
+        visibility: hidden;
+    }
+
+
+
+  }
